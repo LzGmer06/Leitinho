@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="icon" href="img/pontos/Foto_da_Praça_do_Migrante_tirada_a_noite_com_Drone_por_Fabio_Covaleski.jpg">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="header">
+    <h1>Formulário</h1>
+    </div>
+    <div class="form">
+<form action="index.html" method="post">
+
+
+<p>
+<label for="idnome">Nome:</label>
+<input type="text" id="idnome" size="40"/>
+</p>
+<p>
+    <label for="idemal">Email:</label>
+    <input type="email" id="idEmail" size="40"/>
+    </p>
+    <p>
+        <label for="idfone">Telefone:</label>
+        <input type="text" id="idfone" size="15" maxlength="15"/>
+        </p>
+
+<p>
+<label for="idend">Endereço</label>
+<input type="text" id="idend" maxlength="60" >
+</p>
+
+
+    <p>
+        <label for="iddata">Data de Nascimento:</label>
+        <input type="Date" id="iddata" size="40"/>
+        </p>
+        
+<div class="table">
+<table border="3">
+      <tr>
+        <td> 
+            <span>Assunto:</span><br>
+<input type="checkbox" id="idlazer" name="assuntos[]" value="lazer"></imput>
+<label for="idlazer"> Viagem a lazer</label><br> 
+      
+
+<input type="checkbox" id="idescola" name="assuntos[]" value="escolar"></imput>
+<label for="idescolar"> Viagem Escolar</label> <br> 
+</tr>
+</td>
+<tr>
+
+<td>
+
+<input type="checkbox" id="idesport" name="assuntos[]" value="esport"></imput>
+<label for="idespor"> Viagem Esportiva</label> <br> 
+    
+     
+   
+<input type="checkbox" id="idtrampo" name="assuntos[]" value="trampo"></imput>
+<label for="idtrampo"> Viagem a Trabalho </label> <br> 
+</td>
+</tr>
+    
+</td>
+</tr>
+</table>
+</div>
+<div class="eita">
+    <p>
+<input type="submit" id="idenviar" value="Enviar"/>
+
+<input type="reset" id="idlimpar" value="Limpar"/>  
+<br>
+<br>
+<br>
+<p>
+<a href="index.html" ></a>
+</p>
+</div>
+</form>
+</div>
+<footer>
+    <h2>Luiz Henrique Leite / Isabela Ianisky</h2>
+</footer>
+</body>
+</html> 

@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to right, rgb(87, 86, 86), rgb(0, 0, 255));
+}
+.header{
+    position: relative;
+        width: 80%;
+        left: 10%;
+            height: 120px;
+            border-bottom: 2px solid rgb(0, 0, 0);
+            color: rgb(204, 133, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3vw;
+            font-size-adjust: auto;
+            font-family: Impact; 
+            background-color: transparent;
+            font-size: 60px;
+            }
+            footer h2{
+                position: relative;
+                top: 3px;
+            }
+            footer{
+                background-color: rgb(49, 53, 92);
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: small;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                position: absolute;
+                width: 80%;
+                height: 50px;
+                left: 10%;
+                top: 90%;
+                }
+                .vd{
+                    position: absolute;
+                    left: 35%;
+                    top: 20%;
+                }
+                .audio{
+                    position: absolute;
+                    left: 35%;
+                    top: 55%;
+
+                }
+                .teste{
+                    position: absolute;
+                    width: 20%;
+                    height: 40px;
+                    left: 3%;
+                    top: 15%;
+                    }
+                .teste a{
+                    position: relative;
+                    color: rgb(250, 180, 51);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    text-decoration: none;
+                    top: 10px;
+                    font-size: 30px;
+                }
+                audio{
+                    width: 560px;
+                }
+                

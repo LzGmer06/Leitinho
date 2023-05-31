@@ -1,0 +1,149 @@
+body{
+    background: linear-gradient(to right, rgb(87, 86, 86), rgb(0, 0, 255));
+}
+.header{
+    width: 80%;
+    left: 10%;
+        position: relative;
+        height: 120px;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        color: rgb(253, 253, 253);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        font-size-adjust: auto;
+        font-family: Impact; 
+        background-color: transparent;
+        font-size: 60px;
+}
+.cards{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.card1, .card2, .card3{
+    position: relative;
+    width: 25%;
+    height: 200px;
+    border-radius: 8px;
+    transition: all 0.5s ease-out;
+}
+.card1{
+    background-color: rgb(252, 209, 117);
+}
+.card2{
+    background-color: rgb(252, 209, 117);
+}
+.card3{
+    background-color: rgb(252, 209, 117);
+}
+.card1:hover, .card2:hover, .card3:hover{
+    transform: translatey(-20px);
+
+}
+.item1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    top: 5px;
+    font-size: 2.5vw; ;
+    font-size-adjust: auto ;
+    font-family: URW Chancery L, cursive;
+}
+.item2{
+    position: absolute;
+    top : 90px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+}
+.item2 a{
+    color:rgb(0, 0, 0); 
+    text-decoration: none;
+}
+.item2 a:hover{
+    color: rgb(42, 52, 141);
+}
+.item3{
+    width: 30%;
+    height: 50px;
+ position: absolute;
+ bottom: 5px;
+ right: 5px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.slc{
+    width: 80%;
+    height: 75%;
+    background-color: rgb(58, 72, 85);
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 18%;
+    opacity: 50%;
+}
+
+.img{
+    position: absolute;
+    width: 80%;
+    height: 12%;
+    left: 10%;
+}
+footer{
+    background-color: rgb(49, 53, 92);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    left: 10%;
+    top: 95%;
+}
+footer h2{
+    position: relative;
+}
+.teste{
+    position: relative;
+    width: 10%;
+    height: 40px;
+    left: 10%;
+    
+    }
+.teste a{
+    position: relative;
+    color: rgb(250, 180, 51);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    top: 30%;
+}
+.teste3{
+    position: absolute;
+    top: 13%;
+    width: 10%;
+    height: 40px;
+    left: 80%;
+    }
+.teste3 a{
+    position: relative;
+    color: rgb(250, 180, 51);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    top: 40%;
+}
